@@ -1,0 +1,198 @@
+/** FONTS FAMILIES STARTS HERE...**/
+@font-face {
+	font-family: 'Lato-light';
+	src:url('lato/Lato-light.ttf');
+	}
+	@font-face {
+		font-family: 'OpenSans-Italic';
+		src:url('open sans/OpenSans-Italic.ttf');
+	}
+	@font-face {
+		font-family: 'OpenSans-Regular';
+		src:url('open sans/OpenSans-Regular.ttf');
+	}
+
+@font-face {
+	font-family: 'merriweather-bold';
+	src:url('merriweather/merriweather-bold.ttf');
+		}
+
+@font-face {
+	font-family: 'abrilface-regular'
+	src:url('abrilface/abrilface-regular.ttf');
+		}
+/** ....FONTS FAMILIES STOPS HERE**/
+
+body{
+	background-image: url('bglight.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+  margin:0px;
+  width: 100%;
+}
+
+
+.header{
+	width: 100%;
+	 background-color:#000000;
+	 padding: 30px;
+	 color:#ffffff;
+	 font-family: 'OpenSans-Regular';
+	 margin-bottom: 8%;
+}
+.logo{
+	margin-left:2%;
+	float:left;
+	text-transform: uppercase;
+}
+.nav{
+	float: right;
+	right:0;
+	margin-right: 10%;
+}
+.nav a{
+	text-decoration: none;
+	color:#ffffff;
+	padding-left: 6px;
+	padding-right: 7px;
+}
+
+.nav a:hover{
+	color:green;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 4%; /* Stay at the top */
+    left: 0;
+    background-color: #000000; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav h2{
+	text-align: center;
+	text-shadow: #000066;
+	color: #ffffff;
+	font-size: 20px;
+	display: block;
+	padding: 6px;
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 15px 25px 15px 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: -1%;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+		color:#fff;
+}
+.open img{
+	position: absolute;
+	top: 4%;
+	left:0;
+	margin-left:1%;
+	width: 30px;
+	height: 25px;
+	transition: 0.5s;
+}
+
+.profimg{
+	width: 180px;
+	height: 180px;
+	margin-left: 5%;
+	border-radius: 40%;
+	margin-bottom: 3.5%;
+	transition: 0.5s;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .0.2s;
+    padding: 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.posts{
+	margin-top:10%;
+
+}
+ table {
+	 width:70%;
+	border-radius: 3px;
+	font-family: 'OpenSans-Regular';
+	background-color: #ffffff;
+	color: #000000;
+	margin-left: 15%;
+}
+
+td{
+ width:70%;
+	border-bottom: 3px solid #666666;
+}
+td a{
+	 width:70%;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	color:#000000;
+}
+
+
+
+.footer{
+	 background-color:#000000;
+	 padding: 30px;
+	 color:#ffffff;
+	 font-family: 'OpenSans-Regular';
+	 margin-bottom: 8%;
+}
+
+.fleft{
+	float:left;
+	text-transform: uppercase;
+}
+
+.fnav{
+	float:right;
+}
+.fnav a{
+	text-decoration: none;
+	color:white;
+	padding-left: 6px;
+	padding-right: 7px;
+}
+
+.fnav a:hover{
+	color:green;
+}
+
+.clearboth{
+	clear:both;
+}

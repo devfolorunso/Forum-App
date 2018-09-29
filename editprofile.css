@@ -1,0 +1,271 @@
+/** FONTS FAMILIES STARTS HERE...**/
+/** FONTS FAMILIES STARTS HERE...**/
+@font-face {
+	font-family: 'Lato-light';
+	src:url('lato/Lato-light.ttf');
+	}
+	@font-face {
+		font-family: 'OpenSans-Italic';
+		src:url('open sans/OpenSans-Italic.ttf');
+	}
+	@font-face {
+		font-family: 'OpenSans-Regular';
+		src:url('open sans/OpenSans-Regular.ttf');
+	}
+
+@font-face {
+	font-family: 'merriweather-bold';
+	src:url('merriweather/merriweather-bold.ttf');
+		}
+
+@font-face {
+	font-family: 'abrilface-regular';
+	src:url('abrilface/abrilface-regular.ttf');
+		}
+/** ....FONTS FAMILIES STOPS HERE**/
+
+body{
+	background-image: url('bglight.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'abrilface-regular';
+  margin:0px;
+  width: 100%;
+	height: 100%;
+}
+
+
+.header{
+	width: 100%;
+	 background-color:#000000;
+	 padding: 30px;
+	 color:#ffffff;
+	 font-family: 'OpenSans-Regular';
+	 margin-bottom: 0.5%;
+}
+.logo{
+	margin-left:2%;
+	float:left;
+	text-transform: uppercase;
+}
+.nav{
+	float: right;
+	right:0;
+	margin-right: 10%;
+}
+.nav a{
+	text-decoration: none;
+	color:#ffffff;
+	padding-left: 6px;
+	padding-right: 7px;
+}
+
+.nav a:hover{
+	color:green;
+}
+
+.border{
+	border: 2px solid #666666;
+	width: 100%;
+	border-radius: 2px;
+	margin-bottom: 3%;
+	margin-top:5%;
+}
+	.container{
+			background-color: rgb(60,60,60, 0.8);
+			border-radius: 10px;
+			border: 2px solid #666666;
+	   	margin: auto;
+	  	width:80%;
+	    height: 600px;
+	    padding: 10px;
+	    font-family: 'OpenSans-Regular';
+			background-position: center;
+	  }
+
+	.container h3{
+		color:#ffffff;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.cont-left{
+		padding:10px;
+		width: 35%;
+		float: left;
+		margin-left: 7%;
+	}
+.cont-right{
+	padding:10px;
+		width: 35%;
+	float: right;
+	margin-right: 7%;
+}
+
+
+label {
+	color:#ffffff;
+	font-size: 15px;
+}
+
+form{
+	width:80%;
+ margin: auto;
+ margin-top :2%;
+ border-radius: 5px;
+ color: #000000;
+ font-weight: bold;
+}
+
+
+
+  input {
+		  width: 250px;
+		  height: 30px;
+		  text-transform:capitalize;
+		  border: 2px solid #666666;
+		  border-radius: 5px;
+		  padding: 20px;
+		  display: inline;
+			margin-bottom: 10%;
+ }
+
+ .cont-right button {
+   margin:10px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid #666666;
+  border-radius: 10px;
+  background-color: #666655;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+}
+
+.cont-left button {
+	margin:10px;
+ width: 200px;
+ height: 40px;
+ border: 2px solid #666666;
+ border-radius: 10px;
+ background-color: #666655;
+ color: #ffffff;
+ font-size: 15px;
+ margin-top: 5%;
+ text-align: center;
+}
+
+/*
+.input{
+
+  height:10%;
+} */
+.radiom{
+	margin-left:10%;
+	width: 15px;
+	height:15px;
+}
+
+.radiof{
+	width: 15px;
+	height:15px;
+}
+
+
+button:hover {
+	opacity: 0.9;
+	color: #ffffff;
+	box-shadow: 0 2px #666666;
+  }
+/* LOGIN AREA ENDS */
+
+
+
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: absolute;; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 4%; /* Stay at the top */
+    left: 0;
+    background-color: #000000; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav h2{
+	text-align: center;
+	text-shadow: #000066;
+	color: #ffffff;
+	font-size: 20px;
+	display: block;
+	padding: 6px;
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 15px 25px 15px 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: -1%;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+		color:#fff;
+}
+.open img{
+	position: absolute;
+	top: 4%;
+	left:0;
+	margin-left:1%;
+	width: 30px;
+	height: 25px;
+	transition: 0.5s;
+}
+
+.profimg{
+	width: 180px;
+	height: 180px;
+	margin-left: 5%;
+	border-radius: 40%;
+	margin-bottom: 2%;
+	transition: 0.5s;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main  {
+    transition: margin-left .0.2s;
+    padding: 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.images{
+  height: 30px;
+  width: 20px;
+}
+.clearboth{
+	clear:both;
+}
